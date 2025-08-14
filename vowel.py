@@ -1,0 +1,6 @@
+chr = input("Enter a character:\n")
+
+if(chr=='a' or chr=='e' or chr=='i' or chr=='o' or chr=='u' or chr=='A' or chr=='E' or chr=='I' or chr=='O' or chr=='U' ):
+    print(chr, "is a Vowel")
+else:
+    print(chr, "is not a Vowel")
