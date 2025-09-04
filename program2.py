@@ -1,4 +1,4 @@
-print("enter a number")
+print("enter a number7")
 x=int(input())
 
 if(x%2==0):
