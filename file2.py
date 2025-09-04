@@ -5,6 +5,7 @@ fp.close()'''
 
 fp=open("amit.txt","r")
 while True:
+    
     s1=fp.readline()
     if s1 =="":
         break

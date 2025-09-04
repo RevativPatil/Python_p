@@ -21,7 +21,7 @@ head.shape("circle")
 head.color("red")
 head.fillcolor("black")
 head.penup()                           #penup and pendown function when you don't want to draw the line when it changes the position
-head.goto(0,0)        #for starting it from beginning whenever the game starts new
+head.goto(0,0)                         #for starting it from beginning whenever the game starts new
 head.direction="stop"
 
 #creating food
@@ -41,10 +41,25 @@ score.penup()
 score.goto(-250,250)
 score.write("score:0 | Highest Score:0")
 
+def moveUp():
+    if head.direction!="down":
+        head.direction="up"
+def moveDown():
+    if head.direction!="up":
+        head.direction="down"
+def moveLeft():
+    if head.direction!="right":
+        head.direction="left"
+def movrRight():
+    if head.direction!="left":
+        head.direction="right"
 
 
 
 
 
 
-turtle.done()
+
+
+
+

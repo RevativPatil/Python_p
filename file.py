@@ -6,3 +6,4 @@ print(fp.writable())
 print(fp.closed)
 
 fp.close()
+
